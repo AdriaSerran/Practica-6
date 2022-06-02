@@ -2,7 +2,8 @@
 
 Primer de tot dir que hi ha una altra "branca" amb l'altra part de la pràctica.
 
-En aquesta pràctica utilitzarem un lector de sd i una sd i escriurem en aquesta SD a través del codi que es pot veure al main.
+En aquesta pràctica utilitzarem un lector de sd i una sd i escriurem en aquesta SD a través del codi que es pot veure al main per després dir quin arxiu llegeixi 
+i ens ho escrigui per la pantalla de l'ordinador.
 
 # Material
 - Lector de SD
@@ -188,7 +189,8 @@ void testFileIO(fs::FS &fs, const char * path){
 
 Tot segui comença el set up, aquí, com de costum s'inicialitza el port sèrie.
 Seguidament es diu si la SD està ben muntada o si no n'hi ha cap al compartiment on hauria de ser. També ens diu l'espai que té aquesta SD juntament amb els bytes 
-es diu el que vol que s'escrigui a l'arxiu, en aquest cas serà un "Hello world" en un arxiu que es dirà foo.txt
+es diu el que vol que s'escrigui a l'arxiu, en aquest cas serà un "Hello world" en un arxiu que es dirà foo.txt el qual serà llegit i s'enviarà la informació cap a 
+la pantalla.
 
 ```c++
 void setup(){
