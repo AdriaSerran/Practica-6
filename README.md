@@ -1,4 +1,4 @@
-# Practica-6 - LECTURA/ESCRITURA DE MEMORIA SD
+# Practica-6 LECTURA/ESCRITURA DE MEMORIA SD
 
 Primer de tot dir que hi ha una altra "branca" amb l'altra part de la pràctica.
 
